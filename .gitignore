@@ -1,0 +1,6 @@
+*.pyc
+*~
+data/*
+analyzing_hdf5_files.ipynb
+.ipynb_checkpoints/*
+

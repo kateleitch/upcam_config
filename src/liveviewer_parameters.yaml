@@ -1,0 +1,9 @@
+/multi_tracker/1/liveviewer/image_topic: '/webcam/image_raw'
+/multi_tracker/1/liveviewer/camera_encoding: 'bgr'
+/multi_tracker/1/liveviewer/min_persistence_to_draw: 1 #was set to 2
+/multi_tracker/1/liveviewer/max_frames_to_draw: 50
+/multi_tracker/1/liveviewer/roi_l: 0
+/multi_tracker/1/liveviewer/roi_r: -1
+/multi_tracker/1/liveviewer/roi_b: 100
+/multi_tracker/1/liveviewer/roi_t: -1
+

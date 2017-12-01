@@ -1,0 +1,11 @@
+<launch>
+   <!-- launch video stream -->
+   <include file="$(find video_stream_opencv)/launch/camera.launch" >
+        <!-- node name and ros graph name -->
+        <arg name="camera_name" value="webcam" />
+        <!-- means video device 0, /dev/video0 -->
+        <arg name="video_stream_provider" value="/home/kate/Videos/upcam_2min_tests/10meters_south_2_mins.mp4" />
+        <!-- throttling the querying of frames to -->
+        <arg name="fps" value="25" />
+   </include>
+</launch>
