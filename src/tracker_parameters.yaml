@@ -6,7 +6,7 @@
 /multi_tracker/1/tracker/min_persistence_to_draw: 0 #was set to 10
 /multi_tracker/1/tracker/max_frames_to_draw: 50 
 /multi_tracker/1/tracker/erode: 3 #was set to 2
-/multi_tracker/1/tracker/dilate: 10 #was set to 2
+/multi_tracker/1/tracker/dilate: 3 #was set to 2
 /multi_tracker/1/tracker/max_change_in_frame: 0.2 # from my reading of image_processing.py, it seems like this (resetting background if successive frames change by more than 20%) is not implemented for the 'dark_or_light_objects' processor
 /multi_tracker/1/tracker/std_dev_update: 0.00002 # I'm not actually sure where this is used
 /multi_tracker/1/tracker/image_processor: 'dark_or_light_objects' #'light_objects_only' #
